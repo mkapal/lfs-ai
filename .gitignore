@@ -1,0 +1,5 @@
+dist/
+node_modules/
+.env.local
+.pnpm-debug.log*
+.DS_Store
