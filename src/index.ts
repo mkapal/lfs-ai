@@ -106,7 +106,7 @@ inSim.on(PacketType.ISP_VER, (packet) => {
 
   inSim.send(
     new IS_AIC({
-      PLID: 2,
+      PLID: TARGET_PLID,
       Inputs: [
         new AIInputVal({
           Input: AICInput.CS_REPEAT_AI_INFO,
