@@ -2,6 +2,7 @@ import "./env";
 import { InSim } from "node-insim";
 import {
   AICInput,
+  AICSteering,
   AICToggleValue,
   AIInputVal,
   ButtonStyle,
@@ -122,7 +123,7 @@ inSim.on(PacketType.ISP_VER, (packet) => {
         }),
         new AIInputVal({
           Input: AICInput.CS_MSX,
-          Value: 16384,
+          Value: AICSteering.CENTRE,
         }),
         // new AIInputVal({
         //   Input: AICInput.CS_CHUP,
