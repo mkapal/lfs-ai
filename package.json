@@ -1,5 +1,6 @@
 {
-  "name": "lfs-object-rain",
+  "name": "lfs-ai",
+  "description": "AI car controller for Live for Speed",
   "version": "0.0.0",
   "main": "dist/index.cjs",
   "type": "module",
@@ -11,18 +12,18 @@
     "format": "prettier --write \"./**/*.{js,ts,md,json,yml,yaml}\""
   },
   "dependencies": {
-    "debug": "^4.4.0",
-    "dotenv": "^16.4.7",
-    "node-insim": "^4.6.3",
-    "supports-color": "^10.0.0"
+    "debug": "^4.4.1",
+    "dotenv": "^17.2.2",
+    "node-insim": "^5.0.0",
+    "supports-color": "^10.2.0"
   },
   "devDependencies": {
     "@types/debug": "^4.1.12",
-    "@types/node": "^22.14.0",
-    "prettier": "^3.5.3",
-    "tsup": "^8.4.0",
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.3"
+    "@types/node": "^24.3.1",
+    "prettier": "^3.6.2",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
   },
   "files": [
     "**/*.js",
